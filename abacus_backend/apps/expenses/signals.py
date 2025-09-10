@@ -23,9 +23,9 @@ def set_expenses_dates(sender, instance, **kwargs):
             # only assign if not initial value
             # but always set updated_manual
             if not instance.created_manual:
-                instance.created_manual = now
-                instance.updated_manual = now
+                instance.created_manual = now.date()
+                instance.updated_manual = now.date()
     
     # to update
     if instance.is_updated_auto:
-        instance.updated_manual = now
+        instance.updated_manual = now.date()
