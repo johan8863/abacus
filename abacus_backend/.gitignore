@@ -1,2 +1,11 @@
 # environment
 .env
+
+
+# Python compiled files
+*.pyc
+__pycache__/
+
+# django
+*.sqlite
+*.sqlite3
