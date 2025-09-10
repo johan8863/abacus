@@ -9,3 +9,4 @@ __pycache__/
 # django
 *.sqlite
 *.sqlite3
+shell.py
