@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # local
-    'apps.categories'
+    'apps.categories',
+    'apps.expenses',
 ]
 
 MIDDLEWARE = [
